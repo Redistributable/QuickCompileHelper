@@ -88,5 +88,15 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LocusCommon\LocusCommon.Net40\LocusCommon.Net40.csproj">
+      <Project>{1f571976-1fc5-45f5-99b3-c8f5944e1d4a}</Project>
+      <Name>LocusCommon.Net40</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuickCompileHelper.CompilerServices\QuickCompileHelper.CompilerServices.csproj">
+      <Project>{b73f563f-40a4-4c92-a1a1-60a60ff1df75}</Project>
+      <Name>QuickCompileHelper.CompilerServices</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickCompileHelper", "QuickCompileHelper\QuickCompileHelper.csproj", "{DD7CAAA2-FC6F-41B0-9BDC-A5A9B92C6804}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocusCommon.Net40", "LocusCommon\LocusCommon.Net40\LocusCommon.Net40.csproj", "{1F571976-1FC5-45F5-99B3-C8F5944E1D4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickCompileHelper.CompilerServices", "QuickCompileHelper.CompilerServices\QuickCompileHelper.CompilerServices.csproj", "{B73F563F-40A4-4C92-A1A1-60A60FF1DF75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{DD7CAAA2-FC6F-41B0-9BDC-A5A9B92C6804}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD7CAAA2-FC6F-41B0-9BDC-A5A9B92C6804}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD7CAAA2-FC6F-41B0-9BDC-A5A9B92C6804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F571976-1FC5-45F5-99B3-C8F5944E1D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F571976-1FC5-45F5-99B3-C8F5944E1D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F571976-1FC5-45F5-99B3-C8F5944E1D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F571976-1FC5-45F5-99B3-C8F5944E1D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73F563F-40A4-4C92-A1A1-60A60FF1DF75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73F563F-40A4-4C92-A1A1-60A60FF1DF75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73F563F-40A4-4C92-A1A1-60A60FF1DF75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73F563F-40A4-4C92-A1A1-60A60FF1DF75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
