@@ -107,7 +107,7 @@ namespace QuickCompileHelper.CompilerServices.CompilerElements
         }
 
         /// <summary>
-        /// コレクション全体を，<see cref="TReferenceAssemblyInfo"/>の1次配列の指定したインデックスから始まる位置にコピーします．
+        /// コレクション全体を，<see cref="TReferenceAssemblyInfo"/> の1次配列の指定したインデックスから始まる位置にコピーします．
         /// </summary>
         /// <param name="array"></param>
         /// <param name="arrayIndex"></param>

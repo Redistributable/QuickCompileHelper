@@ -39,6 +39,6 @@ namespace QuickCompileHelper.CompilerServices
         /// 利用可能な標準参照アセンブリを取得します．
         /// </summary>
         /// <returns></returns>
-        IReferenceAssemblyInfo<IFrameworkInfo> GetStandardAssemblies();
+        IReferenceAssemblyInfo<IFrameworkInfo>[] GetStandardAssemblies();
     }
 }

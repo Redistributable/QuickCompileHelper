@@ -34,7 +34,11 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompilerElements\CompileErrorInfo.cs" />
+    <Compile Include="CompilerElements\CompileResult.cs" />
+    <Compile Include="CompilerElements\OutputType.cs" />
     <Compile Include="CompilerElements\ReferenceAssemblyCollection.cs" />
+    <Compile Include="CompilerElements\TargetLineInfo.cs" />
     <Compile Include="ICompiler.cs" />
     <Compile Include="ICompilerInfo.cs" />
     <Compile Include="IFrameworkInfo.cs" />
