@@ -5,6 +5,11 @@ using System.Text;
 
 namespace QuickCompileHelper.CompilerServices
 {
+    /// <summary>
+    /// hoge
+    /// </summary>
+    /// <typeparam name="TFrameworkInfo"></typeparam>
+    /// <typeparam name="TCompilerInfo"></typeparam>
     public interface ICompiler<TFrameworkInfo, TCompilerInfo>
         where TFrameworkInfo : IFrameworkInfo
         where TCompilerInfo : ICompilerInfo<TFrameworkInfo>
