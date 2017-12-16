@@ -28,6 +28,6 @@ namespace QuickCompileHelper.CompilerServices
         /// このコンパイラ情報の発行元である <see cref="TFramework"/> のインスタンスを取得します．
         /// </summary>
         /// <returns></returns>
-        ICollection<IFrameworkInfo> GetParentFramework();
+        IFrameworkInfo GetParentFramework();
     }
 }

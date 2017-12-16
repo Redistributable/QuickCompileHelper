@@ -44,5 +44,8 @@
     <Compile Include="IFrameworkInfo.cs" />
     <Compile Include="IReferenceAssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Frameworks\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
